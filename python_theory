@@ -16,4 +16,117 @@
 . sudo apt install python3-pip
 . install pychram
 
+-------------------------------Operators--------------------
+
+. we can make the calculation directly in python of add , sub mul, and div
+. in case of division , if we do 4/2 or any number the result will be in float number. this is because to get the exact value.
+. to avoid the float point - 4//2
+. 2 **3 is a 2 power of 3.
+
+------------------------------commands--------------------------
+
+print("Pooja")
+Pooja
+
+>>> print('hello)
+  File "<stdin>", line 1
+    print('hello)
+          ^
+SyntaxError: unterminated string literal (detected at line 1)
+
+>>> print('hello')
+hello
+
+>>> print("Hello "pooja"")
+  File "<stdin>", line 1
+    print("Hello "pooja"")
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> print('Hello "pooja"')
+Hello "pooja"
+
+>>> print("hello's pooja")
+hello's pooja
+
+>>> print('hello's poo')
+  File "<stdin>", line 1
+    print('hello's poo')
+          ^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> print('hello\'s poo')
+hello's poo
+
+-------------------------------Variables--------------------------------------
+
+x=2
+>>> print(x)
+2
+>>> x=1
+>>> y=2
+>>> print(x+y)
+3
+>>> _ + y
+6
+>>> name = 'pooja'
+>>> print(name)
+pooja
+>>> name[0]
+'p'
+>>> name[8]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> name[0,2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: string indices must be integers
+>>> name[-1]
+'a'
+>>> name[-2]
+'j'
+>>> name[0:2]
+'po'
+>>> name[2:4]
+'oj'
+>>> name[1:]
+'ooja'
+>>> name[:4]
+'pooj'
+>>> name[1:3] 'my'
+  File "<stdin>", line 1
+    name[1:3] 'my'
+              ^^^^
+SyntaxError: invalid syntax
+>>> name[0] = 'I'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> 'my' + 'name' + name[1:]
+'mynameooja'
+>>> len(name)
+5
+
+. Strings in python are immutable
+. to use the previous output we can use _
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
