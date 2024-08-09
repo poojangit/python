@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------------------
+                                            PYTHON     
+--------------------------------------------------------------------------------------------
+
+----------------------------------------Basics----------------------------
+
+. Python is a interpreted language.
+. Python is a Object-oriented Programmimg language
+. Python is a High-level programming language.
+. Guido Van Rossum - invented python
+. how python got it's name ? -
+       Guido Van Rossum is a big fan for British comedy, Monty Python's Flying Circus
+       
+---------------------------------Installation--------------------------
+. sudo apt install python3
+. sudo apt install python3-pip
+. install pychram
+
+
